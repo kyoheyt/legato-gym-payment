@@ -1,0 +1,2 @@
+[2021-09-06 10:11:06.467 Client.Rpc.Contact E] > contactService-LivesharePresence.request() error: undefined
+[2021-09-06 10:11:06.468 Contact.Service E] Request 'publishPresence' failed with error:Error: Connection got disposed. serviceId:LivesharePresence

@@ -1,0 +1,4 @@
+[2021-09-07 00:51:03.697 Client.Rpc.Contact E] > contactService-LivesharePresence.request() error: undefined
+[2021-09-07 00:51:03.698 Contact.Service E] Request 'publishPresence' failed with error:Error: Invalid state for request type:publishPresence serviceId:LivesharePresence
+[2021-09-07 00:51:03.699 Client.Rpc.Contact E] > contactService-LivesharePresence.request() error: undefined
+[2021-09-07 00:51:03.699 Contact.Service E] Request 'dispose' failed with error:Error: HandleDisposeAsync not implemented serviceId:LivesharePresence

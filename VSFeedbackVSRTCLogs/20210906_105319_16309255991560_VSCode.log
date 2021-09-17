@@ -1,0 +1,2 @@
+[2021-09-06 22:49:33.019 Client.Rpc.Contact E] > contactService-LivesharePresence.request() error: undefined
+[2021-09-06 22:49:33.020 Contact.Service E] Request 'publishPresence' failed with error:Error: Server timeout (30000.00ms) elapsed without receiving a message from the server. serviceId:LivesharePresence

@@ -1,0 +1,144 @@
+[2021-09-07 00:53:07.370 Agent I] vsls-agent v1.0.4761.53760 (pid: 1212)
+[2021-09-07 00:53:07.405 Agent I] Reminder: You may only use this software with Visual Studio and Visual Studio Code, as described in the license (https://go.microsoft.com/fwlink/?linkid=872556).
+[2021-09-07 00:53:07.405 Agent I] Start time: 09/07/2021 00:53:07
+[2021-09-07 00:53:07.407 Agent I] Using VSLS service: https://prod.liveshare.vsengsaas.visualstudio.com
+[2021-09-07 00:53:07.407 Agent I] Using VSLS auth token service: https://sts.online.visualstudio.com/api/v1/tokens/exchange
+[2021-09-07 00:53:07.407 Agent I] Using VSLS token audience: https://insiders.liveshare.vsengsaas.visualstudio.com/
+[2021-09-07 00:53:07.407 Agent I] Using VSLS presence service: https://signlr-prod.core.vsengsaas.visualstudio.com/api/signalr/signalrhub enabled: False
+[2021-09-07 00:53:07.488 Agent I] VSLSAgent/1.0.4761.53760 VSLS/2.2 PlatformName/Linux 5.10.16.3 PlatformVersion/5.10.16.3
+[2021-09-07 00:53:07.488 Agent I] 
+[2021-09-07 00:53:07.489 Agent I] Setting up Service Extensions ...
+[2021-09-07 00:53:07.489 Agent I] agentExtensionPathOption = /home/kyohei/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.4761/dotnet_modules/Microsoft.VisualStudio.LiveShare.Agent.PresenceService.dll
+[2021-09-07 00:53:07.489 Agent I] Setting up Server...
+[2021-09-07 00:53:07.489 Agent I] rpcFirstSessionTimeout = 30000
+[2021-09-07 00:53:07.489 Agent I] relayHubServiceUri = <null>
+[2021-09-07 00:53:07.489 Agent I] AutoStop = True
+[2021-09-07 00:53:07.489 Agent I] EnableRpcInitialize = True
+[2021-09-07 00:53:07.489 Agent I] ClientPipeName = vscode.0af049f727bc70c2377a1dce6540edc1
+[2021-09-07 00:53:07.497 Agent.Proxy I] Proxy settings from env variable: http_proxy was null and https_proxy was null
+[2021-09-07 00:53:07.499 Agent V] Loaded agent extension assembly: Microsoft.VisualStudio.LiveShare.Agent.PresenceService v1.0.4761.53760
+[2021-09-07 00:53:07.502 Agent V] KeepAlive-> reason:AgentStarted delay:30000
+[2021-09-07 00:53:07.503 Agent-ObjectTracker V] Add item:KeepAliveAgent reason:AgentStarted delay:30000 count:1
+[2021-09-07 00:53:07.503 Agent.Proxy I] Proxy settings from env variable: http_proxy was null and https_proxy was null
+[2021-09-07 00:53:07.516 Agent I] (1001) Listening on pipe "vscode.0af049f727bc70c2377a1dce6540edc1"
+[2021-09-07 00:53:07.529 Agent-HubConnectionService V] Creating Hub connection service with uri:https://signlr-prod.core.vsengsaas.visualstudio.com/api/signalr/signalrhub
+[2021-09-07 00:53:07.740 Agent I] Accepted incoming pipe connection.
+[2021-09-07 00:53:07.812 Agent I] RPC session #1 established.
+[2021-09-07 00:53:07.842 Agent V] => ProcessMessagesInternalAsync session #:1
+[2021-09-07 00:53:08.379 Agent V] > #1 {Id=0 Name=agentSessionService.initializeSession}
+[2021-09-07 00:53:08.496 Agent-ObjectTracker V] Add item:RpcSession #1 count:2
+[2021-09-07 00:53:08.556 Agent V] Create service from factory Name: contactService-LivesharePresence Type: Agent.PresenceService.PresenceServiceProviderFactory Service Type: IContactServiceProvider Priority: 150
+[2021-09-07 00:53:08.566 Agent V] Adding runtime service of type:IContactServiceProvider
+[2021-09-07 00:53:08.567 Agent V] Adding collab dispatch service:contactService-LivesharePresence
+[2021-09-07 00:53:08.578 Agent V] < #1 {Id=0}
+[2021-09-07 00:53:08.608 Agent V] > #1 {Id=1 Name=version.exchangeVersions}
+[2021-09-07 00:53:08.618 Agent V] < #1 {Id=1}
+[2021-09-07 00:53:08.623 Agent V] > #1 {Id=2 Name=version.exchangeSettings}
+[2021-09-07 00:53:08.639 Agent V] < #1 {Id=2}
+[2021-09-07 00:53:08.642 Telemetry V] > #1 {Id=3 Name=telemetry.initialize}
+[2021-09-07 00:53:08.663 Telemetry V] < #1 {Id=3}
+[2021-09-07 00:53:08.668 Agent V] > #1 {Id=4 Name=hubConnection.setEnabled}
+[2021-09-07 00:53:08.670 Agent V] < #1 {Id=4}
+[2021-09-07 00:53:08.889 Agent V] > #1 {Id=5 Name=sessionContext.getServiceNames}
+[2021-09-07 00:53:08.894 Agent V] < #1 {Id=5}
+[2021-09-07 00:53:08.938 Agent V] > #1 {Id=6 Name=contactService-LivesharePresence.request}
+[2021-09-07 00:53:09.033 Agent V] < #1 {Id=6}
+[2021-09-07 00:53:14.639 Agent.Rpc.Auth V] > #1 {Id=7 Name=auth.login}
+[2021-09-07 00:53:14.700 Agent.Auth I] isValidExpirationTime=True (09/08/2021 00:53:14 - 09/07/2021 02:53:14)
+[2021-09-07 00:53:14.700 Agent.Auth I] isValidIssuedAtTime=True (09/07/2021 00:53:14 - 1)
+[2021-09-07 00:53:14.700 Agent.Auth I] isValidAudience=True (https://insiders.liveshare.vsengsaas.visualstudio.com/api/v1.2/ - https://insiders.liveshare.vsengsaas.visualstudio.com/)
+[2021-09-07 00:53:14.700 Agent.Auth I] Passed token validation.
+[2021-09-07 00:53:14.702 Agent-HubConnectionService V] SetUserInfoAsync -> <null>
+[2021-09-07 00:53:14.707 Agent.Rpc.Auth V] < #1 {Name=auth.authenticationChanged}
+[2021-09-07 00:53:14.723 Agent.Http V] < GET <https://prod.liveshare.vsengsaas.visualstudio.com/e8a6d1b7>
+[2021-09-07 00:53:15.869 Agent.Http V] > GET <https://prod.liveshare.vsengsaas.visualstudio.com/e8a6d1b7> (c1144ms s<null>ms) => 200 OK
+[2021-09-07 00:53:15.957 Agent.Auth V] secret_password_clear_sync(<8:75e5f1d3>, <39:319ffe38>) => 139763942215344
+[2021-09-07 00:53:15.969 Agent.Auth E] Failed to cache user info: System.Exception: secret_password_clear_sync() failed with error code 0: Cannot autolaunch D-Bus without X11 $DISPLAY
+   at Microsoft.Cascade.Platforms.Linux.Keychain.CheckSecretError(String functionName, IntPtr errorPtr) in C:\a\1\s\src\Agent\Platforms\Linux\Keychain.cs:line 141
+   at Microsoft.Cascade.Platforms.Linux.Keychain.DeleteCredential(String provider, String account, TraceSource trace) in C:\a\1\s\src\Agent\Platforms\Linux\Keychain.cs:line 129
+   at Microsoft.Cascade.Platforms.Linux.Keychain.SetCredential(String provider, String account, String credential, TraceSource trace) in C:\a\1\s\src\Agent\Platforms\Linux\Keychain.cs:line 41
+   at Microsoft.Cascade.Agent.AuthenticationService.CacheUserInfoProvider.PersistUserInfo(IKeychain keychain, String provider, String account, UserInfo userInfo, TraceSource trace) in C:\a\1\s\src\Agent\AuthenticationService.cs:line 973
+[2021-09-07 00:53:15.969 Agent-HubConnectionService V] SetUserInfoAsync -> <15:4d8ca8e9>
+[2021-09-07 00:53:15.969 Agent-HubConnectionService V] UpdateHubClientConnection->StartAsync
+[2021-09-07 00:53:15.970 HubConnectionService V] IsRunning -> true
+[2021-09-07 00:53:15.972 HubConnectionService V] AttemptConnectAsync
+[2021-09-07 00:53:15.984 HubConnectionService V] hubConnection.StartAsync -> retries:0
+[2021-09-07 00:53:16.049 Agent.Rpc.Auth V] < #1 {Name=auth.authenticationChanged}
+[2021-09-07 00:53:16.062 Agent.Rpc.Auth V] < #1 {Id=7}
+[2021-09-07 00:53:16.071 Agent.Rpc.Auth V] > #1 {Id=8 Name=auth.getCurrentUser}
+[2021-09-07 00:53:16.072 Agent.Rpc.Auth V] > #1 {Id=9 Name=auth.getCurrentUser}
+[2021-09-07 00:53:16.072 Agent.Http V] < GET <https://prod.liveshare.vsengsaas.visualstudio.com/e8a6d1b7>
+[2021-09-07 00:53:16.073 Agent.Http V] < GET <https://prod.liveshare.vsengsaas.visualstudio.com/e8a6d1b7>
+[2021-09-07 00:53:16.318 Agent.Http V] > GET <https://prod.liveshare.vsengsaas.visualstudio.com/e8a6d1b7> (c245ms s<null>ms) => 200 OK
+[2021-09-07 00:53:16.319 Agent.Rpc.Auth V] < #1 {Id=8}
+[2021-09-07 00:53:16.731 Agent.Http V] > GET <https://prod.liveshare.vsengsaas.visualstudio.com/e8a6d1b7> (c657ms s<null>ms) => 200 OK
+[2021-09-07 00:53:16.736 Agent.Rpc.Auth V] < #1 {Id=9}
+[2021-09-07 00:53:17.721 HubConnectionService V] Succesfully connected...
+[2021-09-07 00:53:17.727 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:True
+[2021-09-07 00:53:17.732 ContactService-LiveShare V] PublishUserInfoAsync -> id:<15:4d8ca8e9> email:<98d9fab1@users.noreply.github.com>
+[2021-09-07 00:53:18.110 ContactService-LiveShare V] RegisterInfo -> contactId=<15:4d8ca8e9>|connectiondId=hOhyrrFmvIngGmQHA1YS5Q230ee7361|serviceId=c4670741-52eb-4553-8cc6-ab7ae5c27cf4|stamp=asse
+[2021-09-07 00:53:18.111 Agent-HubConnectionService-ContactServiceProxy-#0 V] UpdateProperties-> contact:{ Id:<15:4d8ca8e9> connectionId:hOhyrrFmvIngGmQHA1YS5Q230ee7361 } properties:email=<98d9fab1@users.noreply.github.com>|name=<13:0ff9fbda>|status=1|avatarUri=|liveshareStatus=0
+[2021-09-07 00:53:18.115 ContactService-LiveShare V] OnUpdateProperties -> contact Id:<15:4d8ca8e9>
+[2021-09-07 00:53:18.123 Agent V] > #1 {Id=10 Name=contactService-LivesharePresence.request}
+[2021-09-07 00:53:18.268 Agent V] < #1 {Id=10}
+[2021-09-07 00:53:37.509 Agent-ObjectTracker V] Remove item:KeepAliveAgent reason:AgentStarted delay:30000 count:1 others:[RpcSession #1]
+[2021-09-07 01:04:53.907 Agent V] > #1 {Id=11 Name=contactService-LivesharePresence.request}
+[2021-09-07 01:04:54.002 Agent-HubConnectionService-ContactServiceProxy-#0 V] UpdateProperties-> contact:{ Id:<15:4d8ca8e9> connectionId:hOhyrrFmvIngGmQHA1YS5Q230ee7361 } properties:status=4|allowInvites=contacts
+[2021-09-07 01:04:54.002 ContactService-LiveShare V] OnUpdateProperties -> contact Id:<15:4d8ca8e9>
+[2021-09-07 01:04:54.011 Agent V] < #1 {Id=11}
+[2021-09-07 02:31:50.103 HubConnectionService V] OnClosedAsync exception:Server timeout (30000.00ms) elapsed without receiving a message from the server.
+[2021-09-07 02:31:50.104 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:False
+[2021-09-07 02:31:50.105 HubConnectionService V] AttemptConnectAsync
+[2021-09-07 02:31:50.105 HubConnectionService V] hubConnection.StartAsync -> retries:0
+[2021-09-07 02:44:35.744 HubConnectionService E] Failed to connect-> delay:2500 name:TaskCanceledException err:The operation was canceled.
+[2021-09-07 02:53:27.424 HubConnectionService V] hubConnection.StartAsync -> retries:1
+[2021-09-07 02:53:37.433 HubConnectionService E] Failed to connect-> delay:7500 name:HttpRequestException err:Resource temporarily unavailable
+[2021-09-07 02:53:44.935 HubConnectionService V] hubConnection.StartAsync -> retries:2
+[2021-09-07 02:53:54.951 HubConnectionService E] Failed to connect-> delay:17500 name:HttpRequestException err:Resource temporarily unavailable
+[2021-09-07 02:54:12.455 HubConnectionService V] hubConnection.StartAsync -> retries:3
+[2021-09-07 02:54:14.194 HubConnectionService V] Succesfully connected...
+[2021-09-07 02:54:14.195 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:True
+[2021-09-07 02:54:14.195 ContactService-LiveShare V] PublishUserInfoAsync -> id:<15:4d8ca8e9> email:<98d9fab1@users.noreply.github.com>
+[2021-09-07 02:54:14.289 Agent-HubConnectionService-ContactServiceProxy-#0 V] UpdateProperties-> contact:{ Id:<15:4d8ca8e9> connectionId:TWIkWPF_O7L0XcMK40dt7g230ee7361 } properties:email=<98d9fab1@users.noreply.github.com>|name=<13:0ff9fbda>|status=4|avatarUri=|allowInvites=contacts
+[2021-09-07 02:54:14.289 ContactService-LiveShare V] OnUpdateProperties -> contact Id:<15:4d8ca8e9>
+[2021-09-07 02:54:14.290 ContactService-LiveShare V] RegisterInfo -> contactId=<15:4d8ca8e9>|connectiondId=TWIkWPF_O7L0XcMK40dt7g230ee7361|serviceId=b3a7a933-eb8a-4bbd-8d7f-ac557bc51d7e|stamp=asse
+[2021-09-07 03:07:05.895 HubConnectionService V] OnClosedAsync exception:Server timeout (30000.00ms) elapsed without receiving a message from the server.
+[2021-09-07 03:07:05.895 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:False
+[2021-09-07 03:07:05.897 HubConnectionService V] AttemptConnectAsync
+[2021-09-07 03:07:05.898 HubConnectionService V] hubConnection.StartAsync -> retries:0
+[2021-09-07 03:07:07.927 HubConnectionService V] Succesfully connected...
+[2021-09-07 03:07:07.927 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:True
+[2021-09-07 03:07:07.928 ContactService-LiveShare V] PublishUserInfoAsync -> id:<15:4d8ca8e9> email:<98d9fab1@users.noreply.github.com>
+[2021-09-07 03:07:08.028 ContactService-LiveShare V] RegisterInfo -> contactId=<15:4d8ca8e9>|connectiondId=aEqf4Y8-9VwXST6O3Ux70g1fec14641|serviceId=a6d4d35c-dfa0-4201-9816-2a71613ce11d|stamp=asse
+[2021-09-07 03:07:08.028 Agent-HubConnectionService-ContactServiceProxy-#0 V] UpdateProperties-> contact:{ Id:<15:4d8ca8e9> connectionId:aEqf4Y8-9VwXST6O3Ux70g1fec14641 } properties:email=<98d9fab1@users.noreply.github.com>|name=<13:0ff9fbda>|status=4|avatarUri=|allowInvites=contacts
+[2021-09-07 03:07:08.030 ContactService-LiveShare V] OnUpdateProperties -> contact Id:<15:4d8ca8e9>
+[2021-09-07 04:02:30.941 HubConnectionService V] OnClosedAsync exception:Server timeout (30000.00ms) elapsed without receiving a message from the server.
+[2021-09-07 04:02:30.941 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:False
+[2021-09-07 04:02:30.942 HubConnectionService V] AttemptConnectAsync
+[2021-09-07 04:02:30.942 HubConnectionService V] hubConnection.StartAsync -> retries:0
+[2021-09-07 04:02:36.261 HubConnectionService V] Succesfully connected...
+[2021-09-07 04:02:36.261 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:True
+[2021-09-07 04:02:36.261 ContactService-LiveShare V] PublishUserInfoAsync -> id:<15:4d8ca8e9> email:<98d9fab1@users.noreply.github.com>
+[2021-09-07 04:02:36.384 Agent-HubConnectionService-ContactServiceProxy-#0 V] UpdateProperties-> contact:{ Id:<15:4d8ca8e9> connectionId:inFZfF4PfYWU-Vv0ShNJRA54fce72f1 } properties:email=<98d9fab1@users.noreply.github.com>|name=<13:0ff9fbda>|status=4|avatarUri=|allowInvites=contacts
+[2021-09-07 04:02:36.384 ContactService-LiveShare V] OnUpdateProperties -> contact Id:<15:4d8ca8e9>
+[2021-09-07 04:02:36.393 ContactService-LiveShare V] RegisterInfo -> contactId=<15:4d8ca8e9>|connectiondId=inFZfF4PfYWU-Vv0ShNJRA54fce72f1|serviceId=99734fd0-9d86-4619-9f1b-3c11a7d45789|stamp=asse
+[2021-09-07 04:33:25.922 HubConnectionService V] OnClosedAsync exception:Server timeout (30000.00ms) elapsed without receiving a message from the server.
+[2021-09-07 04:33:25.922 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:False
+[2021-09-07 04:33:25.922 HubConnectionService V] AttemptConnectAsync
+[2021-09-07 04:33:25.923 HubConnectionService V] hubConnection.StartAsync -> retries:0
+[2021-09-07 04:33:27.612 HubConnectionService V] Succesfully connected...
+[2021-09-07 04:33:27.612 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:True
+[2021-09-07 04:33:27.613 ContactService-LiveShare V] PublishUserInfoAsync -> id:<15:4d8ca8e9> email:<98d9fab1@users.noreply.github.com>
+[2021-09-07 04:33:28.089 ContactService-LiveShare V] RegisterInfo -> contactId=<15:4d8ca8e9>|connectiondId=3aIlOFyoWjYFqQ9HCqm9iQ230ee7361|serviceId=b3a7a933-eb8a-4bbd-8d7f-ac557bc51d7e|stamp=asse
+[2021-09-07 04:33:28.089 Agent-HubConnectionService-ContactServiceProxy-#0 V] UpdateProperties-> contact:{ Id:<15:4d8ca8e9> connectionId:3aIlOFyoWjYFqQ9HCqm9iQ230ee7361 } properties:email=<98d9fab1@users.noreply.github.com>|name=<13:0ff9fbda>|status=4|avatarUri=|allowInvites=contacts
+[2021-09-07 04:33:28.090 ContactService-LiveShare V] OnUpdateProperties -> contact Id:<15:4d8ca8e9>
+[2021-09-07 04:54:43.980 HubConnectionService V] OnClosedAsync exception:Server timeout (30000.00ms) elapsed without receiving a message from the server.
+[2021-09-07 04:54:43.981 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:False
+[2021-09-07 04:54:43.981 HubConnectionService V] AttemptConnectAsync
+[2021-09-07 04:54:43.982 HubConnectionService V] hubConnection.StartAsync -> retries:0
+[2021-09-07 04:54:47.424 HubConnectionService V] Succesfully connected...
+[2021-09-07 04:54:47.424 Agent-HubConnectionService V] ConnectionStateChanged IsConnected:True
+[2021-09-07 04:54:47.425 ContactService-LiveShare V] PublishUserInfoAsync -> id:<15:4d8ca8e9> email:<98d9fab1@users.noreply.github.com>
+[2021-09-07 04:54:47.530 Agent-HubConnectionService-ContactServiceProxy-#0 V] UpdateProperties-> contact:{ Id:<15:4d8ca8e9> connectionId:qkfVQ84s9OX1zzKFyzzRHQ54fce72f1 } properties:email=<98d9fab1@users.noreply.github.com>|name=<13:0ff9fbda>|status=4|avatarUri=|allowInvites=contacts
+[2021-09-07 04:54:47.530 ContactService-LiveShare V] OnUpdateProperties -> contact Id:<15:4d8ca8e9>
+[2021-09-07 04:54:47.562 ContactService-LiveShare V] RegisterInfo -> contactId=<15:4d8ca8e9>|connectiondId=qkfVQ84s9OX1zzKFyzzRHQ54fce72f1|serviceId=c4670741-52eb-4553-8cc6-ab7ae5c27cf4|stamp=asse

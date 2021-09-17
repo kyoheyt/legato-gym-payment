@@ -1,0 +1,1 @@
+c:\Users\legat\.vscode\extensions\ms-vscode-remote.remote-wsl-0.58.2
